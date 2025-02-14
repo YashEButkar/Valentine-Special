@@ -51,5 +51,10 @@ galleryImages.forEach(image => {
 function closeLightbox() {
     lightbox.classList.add("hidden");
 }
+function playMusic() {
+    const music = document.getElementById("bg-music");
+    music.play();
+}
+
 
 
